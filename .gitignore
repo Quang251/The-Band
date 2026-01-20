@@ -1,0 +1,29 @@
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / JS dependencies (phòng khi sau này bạn dùng npm)
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Build / output directories (nếu sau này bạn dùng bundler)
+dist/
+build/
+out/
+
+# Environment / secret configs
+.env
+.env.*
+
+# Third-party fonts/icons (có thể thay bằng CDN)
+assets/font/themify-icons-font/
+
+
